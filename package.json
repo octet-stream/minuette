@@ -1,0 +1,20 @@
+{
+  "name": "minuette",
+  "version": "0.1.0",
+  "description": "A tiny and simple job scheduler for JavaScript",
+  "main": "lib/Minuette.js",
+  "repository": "https://github.com/octet-stream/minuette",
+  "author": "Nick K.",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "ms": "^2.1.1"
+  },
+  "devDependencies": {
+    "@octetstream/eslint-config": "^2.1.0",
+    "ava": "^0.24.0",
+    "eslint": "^4.14.0",
+    "lint-staged": "^6.0.0",
+    "nyc": "^11.4.1"
+  }
+}

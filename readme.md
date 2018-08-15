@@ -1,3 +1,3 @@
 # Minuette
 
-A tiny job scheduler for modern JavaScript, with elegant syntax.
+A job scheduler with elegant syntax.

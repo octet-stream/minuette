@@ -61,3 +61,14 @@ test("Should parse an extra shortcuts", t => {
 
   t.deepEqual(actual, expected)
 })
+
+test("Should throw a TypeError when given value is not a string", t => {
+  t.plan(3)
+
+  const trap = () => parse(451)
+
+  const err = t.throws(trap)
+
+  t.true(err instanceof TypeError)
+  t.is(err.message, "The given value must be a string.")
+})

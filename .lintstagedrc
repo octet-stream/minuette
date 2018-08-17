@@ -1,0 +1,4 @@
+{
+  "lib/**/*.js": "node_modules/.bin/eslint --fix",
+  "test/**/*.js": "node_modules/.bin/eslint --fix"
+}

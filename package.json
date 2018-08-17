@@ -1,22 +1,27 @@
 {
   "name": "minuette",
   "version": "0.1.0",
-  "description": "A tiny job scheduler for modern JavaScript",
+  "description": "A job scheduler with elegant syntax.",
   "main": "lib/Minuette.js",
-  "repository": "https://github.com/octet-stream/minuette",
+  "repository": "octet-stream/minuette",
   "author": "Nick K.",
   "license": "MIT",
   "private": false,
-  "dependencies": {
-    "ms": "2.1.1"
+  "scripts": {
+    "test": "node_modules/.bin/ava",
+    "staged": "node_modules/.bin/lint-staged",
+    "eslint": "node_modules/.bin/eslint --fix lib test",
+    "precommit": "yarn staged",
+    "prepush": "yarn test"
   },
   "devDependencies": {
     "@octetstream/eslint-config": "2.1.0",
-    "ava": "^0.25.0",
-    "codecov": "^3.0.4",
+    "ava": "0.25.0",
+    "codecov": "3.0.4",
     "eslint": "5.3.0",
     "eslint-plugin-ava": "5.1.0",
+    "husky": "0.14.3",
     "lint-staged": "7.2.2",
-    "nyc": "^12.0.2"
+    "nyc": "12.0.2"
   }
 }

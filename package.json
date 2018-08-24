@@ -11,6 +11,9 @@
     "test": "node_modules/.bin/ava",
     "staged": "node_modules/.bin/lint-staged",
     "eslint": "node_modules/.bin/eslint --fix lib test",
+    "coverage": "node_modules/.bin/nyc yarn test",
+    "report": "yarn coverage && node_modules/.bin/nyc report --reporter=html yarn test",
+    "report:ci": "yarn coverage && node_modules/.bin/nyc report --reporter=lcov yarn test",
     "precommit": "yarn staged",
     "prepush": "yarn test"
   },

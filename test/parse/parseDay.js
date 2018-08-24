@@ -2,18 +2,6 @@ const test = require("ava")
 
 const parse = require("../../lib/parse/parseDay")
 
-test("Should return null when no arguments given", t => {
-  t.plan(1)
-
-  t.is(parse(), null)
-})
-
-test("Should return null when no days matched", t => {
-  t.plan(1)
-
-  t.is(parse("notaday"), null)
-})
-
 test("Should parse the whole days by their full names", t => {
   t.plan(1)
 
@@ -72,3 +60,16 @@ test("Should throw a TypeError when given value is not a string", t => {
   t.true(err instanceof TypeError)
   t.is(err.message, "The given value must be a string.")
 })
+
+test("Should return null on incorrect or out of range day name", t => {
+  t.plan(1)
+
+  t.is(parse("notaday"), null)
+})
+
+test("Should return null when no arguments given", t => {
+  t.plan(1)
+
+  t.is(parse(), null)
+})
+

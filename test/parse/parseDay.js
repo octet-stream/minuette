@@ -40,16 +40,6 @@ test("Should parse the whole days by their short names", t => {
   t.deepEqual(actual, expected)
 })
 
-test("Should parse an extra shortcuts", t => {
-  t.plan(1)
-
-  const expected = ["today", "tomorrow"]
-
-  const actual = expected.map(parse)
-
-  t.deepEqual(actual, expected)
-})
-
 test("Should throw a TypeError when given value is not a string", t => {
   t.plan(3)
 

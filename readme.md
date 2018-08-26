@@ -42,7 +42,7 @@ Sets a time to run action.
 
 ##### `.repeat() -> {Minuette}`
 
-##### `.do(action, args, ctx) -> {Timer}`
+##### `.do(action, args, ctx) -> {Job}`
 
   * **{function}** action – function to execute
   * **{any[]?}** [args = []] – arguments to call function with

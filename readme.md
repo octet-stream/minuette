@@ -20,7 +20,7 @@ npm i minuette
 
 **Public**
 
-### constructor Minuette
+### `constructor Minuette`
 
 Creates a new instance of minuette. Can be called as a regular function
 

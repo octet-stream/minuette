@@ -28,10 +28,22 @@ Creates a new instance of minuette. Can be called as a regular function
 
 ##### `.once(dateOrDay) -> {Minuette}`
 
+  * **{string}** dateOrDay – timer destination date or day of week
+
 ##### `.each(dateOrDay) -> {Minuette}`
+
+  * **{string}** dateOrDay – timer destination date or day of week
 
 ##### `.at(time) -> {Minuette}`
 
+Sets a time to run action.
+
+  * **{string}** time – destination time in 24 or 12-hour format
+
 ##### `.repeat() -> {Minuette}`
 
-##### `.do() -> {Timer}`
+##### `.do(action, args, ctx) -> {Timer}`
+
+  * **{function}** action – function to execute
+  * **{any[]?}** [args = []] – arguments to call function with
+  * **{any?}** [ctx = null] – "this" context to set to the function

@@ -2,6 +2,8 @@
 
 A job scheduler with elegant syntax.
 
+🚧 The project currently still in development.
+
 ## Installation
 
 You can install minuetter using Yarn:

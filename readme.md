@@ -47,3 +47,14 @@ Sets a time to run action.
   * **{function}** action – function to execute
   * **{any[]?}** [args = []] – arguments to call function with
   * **{any?}** [ctx = null] – "this" context to set to the function
+
+#### Usage
+
+Minimal example of usage
+
+```js
+import minuette from "minuette"
+
+// Will execute given functino each friday at 21 hour.
+minuette().each("friday").at("9pm").do(() console.log("Hello, world!"))
+```

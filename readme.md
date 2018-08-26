@@ -4,6 +4,11 @@ A job scheduler with elegant syntax.
 
 🚧 The project currently still in development.
 
+[![devDependencies Status](https://david-dm.org/octet-stream/minuette/dev-status.svg)](https://david-dm.org/octet-stream/minuette?type=dev)
+[![Build Status](https://travis-ci.org/octet-stream/minuette.svg?branch=master)](https://travis-ci.org/octet-stream/minuette)
+[![Code Coverage](https://codecov.io/github/octet-stream/minuette/coverage.svg?branch=master)](https://codecov.io/github/octet-stream/minuette?branch=master)
+
+
 ## Installation
 
 You can install minuetter using Yarn:

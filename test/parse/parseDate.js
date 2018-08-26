@@ -20,6 +20,12 @@ test("Should return null on executing without any arguments", t => {
   t.is(parseDate(), null)
 })
 
+test("Should return null on inforrect value (when nothing was matched)", t => {
+  t.plan(1)
+
+  t.is(parseDate("42 Jan 2020"), null)
+})
+
 test(
   "Should throw a RangeError when days of february more then 28 " +
   "in non-leap year",

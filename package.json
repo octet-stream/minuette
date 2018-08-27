@@ -2,6 +2,7 @@
   "name": "minuette",
   "version": "0.1.0",
   "description": "A job scheduler with elegant syntax.",
+  "keywords": ["job-scheduler", "scheduler", "runner", "job", "jobs", "timer", "cron", "chainable"],
   "main": "lib/Minuette.js",
   "repository": "octet-stream/minuette",
   "author": "Nick K.",

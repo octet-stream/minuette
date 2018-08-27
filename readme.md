@@ -2,7 +2,7 @@
 
 A job scheduler with elegant syntax.
 
-🚧 The project currently still in development.
+🚧 Project currently is still in development.
 
 [![devDependencies Status](https://david-dm.org/octet-stream/minuette/dev-status.svg)](https://david-dm.org/octet-stream/minuette?type=dev)
 [![Build Status](https://travis-ci.org/octet-stream/minuette.svg?branch=master)](https://travis-ci.org/octet-stream/minuette)
@@ -11,7 +11,7 @@ A job scheduler with elegant syntax.
 
 ## Installation
 
-You can install minuetter using Yarn:
+You can install minuette using Yarn:
 
 ```
 yarn add minuette
@@ -62,6 +62,6 @@ Minimal example of usage
 ```js
 import minuette from "minuette"
 
-// Will execute given functino each friday at 21 hour.
+// Will execute given functinon each friday at 21 hour.
 minuette().each("friday").at("9pm").do(() => console.log("Hello, world!"))
 ```

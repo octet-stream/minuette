@@ -14,6 +14,29 @@ test("Should correctly parse any group of months", t => {
   t.deepEqual(days31, [25, "june", 2020])
 })
 
+test("Should parse every month", t => {
+  t.plan(1)
+
+  const expected = [
+    "january",
+    "february",
+    "march",
+    "april",
+    "may",
+    "june",
+    "july",
+    "august",
+    "september",
+    "october",
+    "november",
+    "december"
+  ]
+
+  const actual = expected.map(m => parseDate(`11 ${m}`)).map(([, m]) => m)
+
+  t.deepEqual(actual, expected)
+})
+
 test("Should return null on executing without any arguments", t => {
   t.plan(1)
 

@@ -1,0 +1,11 @@
+.DS_Store
+coverage
+.nyc_output
+node_modules
+.eslintrc.json
+.lintstagedrc
+.editorconfig
+yarn.lock
+.travis.yml
+test
+.gitignore

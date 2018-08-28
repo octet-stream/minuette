@@ -60,7 +60,7 @@ test(
     const err = t.throws(trap)
 
     t.true(err instanceof RangeError)
-    t.is(err.message, "February have only 28 years in non-leap year.")
+    t.is(err.message, "February have only 28 days in non-leap year.")
   }
 )
 

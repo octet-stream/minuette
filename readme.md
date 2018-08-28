@@ -87,9 +87,9 @@ minuette().at("10pm").do(() => console.log("This message appers in 22 hour"))
 ## Roadmap
 
 - [x] Parsers for days of week, date and time (both for 12h and 24h formats);
-- [x] .once(), .at() and .do() methods for proof-of-concept implementation;
+- [x] `.once()`, `.at()` and `.do()` methods for proof-of-concept implementation;
 - [x] Minimal implementation for Job that supports big idle intervals for setTimeout;
-- [ ] .repeat() and .each() methods + supports of executing actions many times
+- [ ] `.repeat()` and `.each()` methods + supports of executing actions many times
 - [ ] Documentation (in progress)
-- [ ] Method .in() that will support alternative time or date setting relative to Date.now()
+- [ ] Method `.in()` that will support alternative time or date setting relative to `Date.now()`
 - [ ] Additional public API for Job: Methods .pause(), .resume(), .stop() and .reset()

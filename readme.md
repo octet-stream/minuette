@@ -92,4 +92,4 @@ minuette().at("10pm").do(() => console.log("This message appers in 22 hour"))
 - [ ] `.repeat()` and `.each()` methods + supports of executing actions many times
 - [ ] Documentation (in progress)
 - [ ] Method `.in()` that will support alternative time or date setting relative to `Date.now()`
-- [ ] Additional public API for Job: Methods .pause(), .resume(), .stop() and .reset()
+- [ ] Additional public API for Job: Methods `.pause()`, `.resume()`, `.stop()` and `.reset()`

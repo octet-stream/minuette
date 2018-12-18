@@ -81,7 +81,7 @@ For example:
 import minuette from "minuette"
 
 // Will execute this action in same day as `new Date()`
-minuette().at("10pm").do(() => console.log("This message appers in 22 hour"))
+minuette().at("10pm").do(() => console.log("This message appears in 22 hour"))
 ```
 
 ## Roadmap

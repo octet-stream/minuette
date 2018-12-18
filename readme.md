@@ -1,6 +1,6 @@
-# Minuette ⏳
+# Minuette
 
-A job scheduler with elegant syntax.
+⏳ A job scheduler with elegant syntax.
 
 🚧 Project currently is still in development. Documentation and more features will be delivered soon!
 

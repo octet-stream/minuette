@@ -12,6 +12,13 @@
   "rules": {
     "no-void": 0,
 
-    "import/no-unresolved": "error"
+    "import/no-unresolved": "error",
+    "operator-linebreak": ["error", "after", {
+      "overrides": {
+        "+": "ignore",
+        "?": "before",
+        ":": "before"
+      }
+    }]
   }
 }

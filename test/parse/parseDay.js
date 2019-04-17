@@ -62,4 +62,3 @@ test("Should return null when no arguments given", t => {
 
   t.is(parse(), null)
 })
-

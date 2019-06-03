@@ -22,9 +22,9 @@
     "staged": "lint-staged",
     "eslint": "eslint lib test readme.md",
     "coverage": "nyc yarn test",
-    "report": "yarn coverage && nyc report --reporter=html",
-    "report:ci": "yarn coverage && nyc report --reporter=lcov",
-    "ci": "yarn report:ci && yarn codecov"
+    "report": "nyc npm run test && nyc report --reporter=html",
+    "report:lcov": "nyc npm run test && nyc report --reporter=lcov",
+    "ci": "yarn report:lcov && yarn codecov"
   },
   "devDependencies": {
     "@octetstream/eslint-config": "3.0.0",

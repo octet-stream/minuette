@@ -22,8 +22,8 @@
     "staged": "lint-staged",
     "eslint": "eslint lib test readme.md",
     "coverage": "nyc yarn test",
-    "report": "yarn coverage && nyc report --reporter=html yarn test",
-    "report:ci": "yarn coverage && nyc report --reporter=lcov yarn test",
+    "report": "yarn coverage && nyc report --reporter=html",
+    "report:ci": "yarn coverage && nyc report --reporter=lcov",
     "ci": "yarn report:ci && yarn codecov"
   },
   "devDependencies": {
